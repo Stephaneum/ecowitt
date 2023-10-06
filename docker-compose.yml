@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  ecowitt-server:
+    build: .
+    image: ecowitt-server
+    ports:
+      - "80:80"
+    volumes:
+      - ./docker-data/logs-data:/var/log/ecowitt
