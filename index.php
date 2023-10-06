@@ -69,8 +69,8 @@ ini_set('display_errors', 'on');
 
 # Settings: General
 $device = "auto";  	# Use 'auto' for automatic name from PASSKEY else uses the name
-$json_data_log = 1; 	# Activate the export to JSON. Set always to 1
-$txt_data_log = 0; 	# Activate the export to .csv
+$json_data_log = 0; 	# Activate the export to JSON. Set always to 1
+$txt_data_log = 1; 	# Activate the export to .csv
 $fhem_data_log = 0; 	# Activate the forward to FHEM server
 $forward_data = 0; 	# Activate the forward to Meteotemplate web site
 $txt_mnw = 0; 		# Activate the FTP for the Meteonetwork string
